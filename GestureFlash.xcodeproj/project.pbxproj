@@ -23,6 +23,21 @@
 		FF5175EB17A3876000CF982D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF5175C617A3876000CF982D /* Foundation.framework */; };
 		FF5175F317A3876000CF982D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF5175F117A3876000CF982D /* InfoPlist.strings */; };
 		FF5175F617A3876000CF982D /* GestureFlashTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5175F517A3876000CF982D /* GestureFlashTests.m */; };
+		FF51762417A3883700CF982D /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FF51761917A3883600CF982D /* icon.png */; };
+		FF51762517A3883700CF982D /* pinch-in.png in Resources */ = {isa = PBXBuildFile; fileRef = FF51761A17A3883600CF982D /* pinch-in.png */; };
+		FF51762617A3883700CF982D /* pinch-out.png in Resources */ = {isa = PBXBuildFile; fileRef = FF51761B17A3883600CF982D /* pinch-out.png */; };
+		FF51762717A3883700CF982D /* rotate-left.png in Resources */ = {isa = PBXBuildFile; fileRef = FF51761C17A3883700CF982D /* rotate-left.png */; };
+		FF51762817A3883700CF982D /* rotate-right.png in Resources */ = {isa = PBXBuildFile; fileRef = FF51761D17A3883700CF982D /* rotate-right.png */; };
+		FF51762917A3883700CF982D /* start-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = FF51761E17A3883700CF982D /* start-bg.png */; };
+		FF51762A17A3883700CF982D /* start.png in Resources */ = {isa = PBXBuildFile; fileRef = FF51761F17A3883700CF982D /* start.png */; };
+		FF51762B17A3883700CF982D /* swipe-down.png in Resources */ = {isa = PBXBuildFile; fileRef = FF51762017A3883700CF982D /* swipe-down.png */; };
+		FF51762C17A3883700CF982D /* swipe-left.png in Resources */ = {isa = PBXBuildFile; fileRef = FF51762117A3883700CF982D /* swipe-left.png */; };
+		FF51762D17A3883700CF982D /* swipe-right.png in Resources */ = {isa = PBXBuildFile; fileRef = FF51762217A3883700CF982D /* swipe-right.png */; };
+		FF51762E17A3883700CF982D /* swipe-up.png in Resources */ = {isa = PBXBuildFile; fileRef = FF51762317A3883700CF982D /* swipe-up.png */; };
+		FF51763117A38B5100CF982D /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = FF51762F17A38B5100CF982D /* back.png */; };
+		FF51763217A38B5100CF982D /* finish-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = FF51763017A38B5100CF982D /* finish-bg.png */; };
+		FF51763517A38EE600CF982D /* PlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF51763417A38EE600CF982D /* PlayViewController.m */; };
+		FF51763817A38F0C00CF982D /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF51763717A38F0C00CF982D /* ResultViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +73,23 @@
 		FF5175F217A3876000CF982D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FF5175F417A3876000CF982D /* GestureFlashTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GestureFlashTests.h; sourceTree = "<group>"; };
 		FF5175F517A3876000CF982D /* GestureFlashTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GestureFlashTests.m; sourceTree = "<group>"; };
+		FF51761917A3883600CF982D /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		FF51761A17A3883600CF982D /* pinch-in.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pinch-in.png"; sourceTree = "<group>"; };
+		FF51761B17A3883600CF982D /* pinch-out.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pinch-out.png"; sourceTree = "<group>"; };
+		FF51761C17A3883700CF982D /* rotate-left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rotate-left.png"; sourceTree = "<group>"; };
+		FF51761D17A3883700CF982D /* rotate-right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rotate-right.png"; sourceTree = "<group>"; };
+		FF51761E17A3883700CF982D /* start-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "start-bg.png"; sourceTree = "<group>"; };
+		FF51761F17A3883700CF982D /* start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start.png; sourceTree = "<group>"; };
+		FF51762017A3883700CF982D /* swipe-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "swipe-down.png"; sourceTree = "<group>"; };
+		FF51762117A3883700CF982D /* swipe-left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "swipe-left.png"; sourceTree = "<group>"; };
+		FF51762217A3883700CF982D /* swipe-right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "swipe-right.png"; sourceTree = "<group>"; };
+		FF51762317A3883700CF982D /* swipe-up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "swipe-up.png"; sourceTree = "<group>"; };
+		FF51762F17A38B5100CF982D /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		FF51763017A38B5100CF982D /* finish-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "finish-bg.png"; sourceTree = "<group>"; };
+		FF51763317A38EE600CF982D /* PlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayViewController.h; sourceTree = "<group>"; };
+		FF51763417A38EE600CF982D /* PlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayViewController.m; sourceTree = "<group>"; };
+		FF51763617A38F0C00CF982D /* ResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultViewController.h; sourceTree = "<group>"; };
+		FF51763717A38F0C00CF982D /* ResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +119,19 @@
 		FF5175B817A3876000CF982D = {
 			isa = PBXGroup;
 			children = (
+				FF51762F17A38B5100CF982D /* back.png */,
+				FF51763017A38B5100CF982D /* finish-bg.png */,
+				FF51761917A3883600CF982D /* icon.png */,
+				FF51761A17A3883600CF982D /* pinch-in.png */,
+				FF51761B17A3883600CF982D /* pinch-out.png */,
+				FF51761C17A3883700CF982D /* rotate-left.png */,
+				FF51761D17A3883700CF982D /* rotate-right.png */,
+				FF51761E17A3883700CF982D /* start-bg.png */,
+				FF51761F17A3883700CF982D /* start.png */,
+				FF51762017A3883700CF982D /* swipe-down.png */,
+				FF51762117A3883700CF982D /* swipe-left.png */,
+				FF51762217A3883700CF982D /* swipe-right.png */,
+				FF51762317A3883700CF982D /* swipe-up.png */,
 				FF5175CA17A3876000CF982D /* GestureFlash */,
 				FF5175EE17A3876000CF982D /* GestureFlashTests */,
 				FF5175C317A3876000CF982D /* Frameworks */,
@@ -123,6 +168,10 @@
 				FF5175DF17A3876000CF982D /* ViewController.h */,
 				FF5175E017A3876000CF982D /* ViewController.m */,
 				FF5175CB17A3876000CF982D /* Supporting Files */,
+				FF51763317A38EE600CF982D /* PlayViewController.h */,
+				FF51763417A38EE600CF982D /* PlayViewController.m */,
+				FF51763617A38F0C00CF982D /* ResultViewController.h */,
+				FF51763717A38F0C00CF982D /* ResultViewController.m */,
 			);
 			path = GestureFlash;
 			sourceTree = "<group>";
@@ -236,6 +285,19 @@
 				FF5175D917A3876000CF982D /* Default@2x.png in Resources */,
 				FF5175DB17A3876000CF982D /* Default-568h@2x.png in Resources */,
 				FF5175DE17A3876000CF982D /* MainStoryboard.storyboard in Resources */,
+				FF51762417A3883700CF982D /* icon.png in Resources */,
+				FF51762517A3883700CF982D /* pinch-in.png in Resources */,
+				FF51762617A3883700CF982D /* pinch-out.png in Resources */,
+				FF51762717A3883700CF982D /* rotate-left.png in Resources */,
+				FF51762817A3883700CF982D /* rotate-right.png in Resources */,
+				FF51762917A3883700CF982D /* start-bg.png in Resources */,
+				FF51762A17A3883700CF982D /* start.png in Resources */,
+				FF51762B17A3883700CF982D /* swipe-down.png in Resources */,
+				FF51762C17A3883700CF982D /* swipe-left.png in Resources */,
+				FF51762D17A3883700CF982D /* swipe-right.png in Resources */,
+				FF51762E17A3883700CF982D /* swipe-up.png in Resources */,
+				FF51763117A38B5100CF982D /* back.png in Resources */,
+				FF51763217A38B5100CF982D /* finish-bg.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +335,8 @@
 				FF5175D117A3876000CF982D /* main.m in Sources */,
 				FF5175D517A3876000CF982D /* AppDelegate.m in Sources */,
 				FF5175E117A3876000CF982D /* ViewController.m in Sources */,
+				FF51763517A38EE600CF982D /* PlayViewController.m in Sources */,
+				FF51763817A38F0C00CF982D /* ResultViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
